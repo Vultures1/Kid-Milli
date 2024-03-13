@@ -41,6 +41,7 @@ h3 {
 body {
     color:white;
     background-color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #disqus {
     margin:0;
@@ -68,12 +69,15 @@ body {
         border-right:none;
 
     }
+    li {
+        height:40px;
+    }
     #grid {
         grid-template-columns:none;
     }
     img {
         height:25%;
-        width:70%;
+        width:60%;
     }
     #article {
         padding:20px;
